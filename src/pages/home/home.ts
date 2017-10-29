@@ -10,5 +10,7 @@ export class HomePage {
   constructor(public navCtrl: NavController) {
 
   }
-
+testpage(){
+  this.navCtrl.push('Test1Page');
+}
 }
